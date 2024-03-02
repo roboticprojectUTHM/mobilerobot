@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/ydlidar_ros_driver': /usr/bin/cmake /home/ubuntu/ros2_ws/src/ydlidar_ros_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/ydlidar_ros_driver
+Invoked command in '/home/ubuntu/ros2_ws/build/ydlidar_ros_driver' returned '1': /usr/bin/cmake /home/ubuntu/ros2_ws/src/ydlidar_ros_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/ydlidar_ros_driver

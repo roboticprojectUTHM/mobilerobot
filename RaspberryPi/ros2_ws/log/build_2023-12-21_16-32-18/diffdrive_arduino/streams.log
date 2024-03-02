@@ -1,0 +1,35 @@
+[3.476s] Invoking command in '/home/ubuntu/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/ydlidar_sdk:/home/ubuntu/ros2_ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/diffdrive_arduino:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/my_bot:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[3.867s] [ 42%] Built target fake_robot
+[3.896s] [100%] Built target diffdrive_arduino
+[3.966s] Invoked command in '/home/ubuntu/ros2_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/ydlidar_sdk:/home/ubuntu/ros2_ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/diffdrive_arduino:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/my_bot:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/diffdrive_arduino -- -j4 -l4
+[4.186s] Invoking command in '/home/ubuntu/ros2_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/ydlidar_sdk:/home/ubuntu/ros2_ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/diffdrive_arduino:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/my_bot:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/diffdrive_arduino
+[4.246s] -- Install configuration: ""
+[4.258s] -- Execute custom install script
+[4.261s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[4.264s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[4.267s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[4.270s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/lib/libfake_robot.so
+[4.274s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[4.277s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[4.279s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[4.282s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[4.285s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[4.288s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[4.291s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[4.293s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[4.296s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[4.299s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[4.302s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[4.305s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[4.307s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[4.310s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[4.312s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[4.314s] -- Symlinking: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[4.358s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[4.359s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[4.361s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[4.364s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.366s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[4.367s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[4.369s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[4.389s] Invoked command in '/home/ubuntu/ros2_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/ydlidar_sdk:/home/ubuntu/ros2_ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/diffdrive_arduino:/home/ubuntu/ros2_ws/install/rplidar_ros:/home/ubuntu/ros2_ws/install/my_bot:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/diffdrive_arduino

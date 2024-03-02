@@ -1,0 +1,32 @@
+[0.235s] Invoking command in '/home/robotic/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robotic/dev_ws/build/my_bot -- -j4 -l4
+[0.985s] Invoked command in '/home/robotic/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robotic/dev_ws/build/my_bot -- -j4 -l4
+[1.022s] Invoking command in '/home/robotic/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robotic/dev_ws/build/my_bot
+[1.031s] -- Install configuration: ""
+[1.032s] -- Execute custom install script
+[1.032s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[1.033s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/config/joystick.yaml
+[1.033s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/config/view_bot_base_link.rviz
+[1.033s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/config/view_bot_odom.rviz
+[1.034s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[1.034s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.034s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.034s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.035s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/launch/joystick.launch.py
+[1.035s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.036s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[1.036s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.037s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.037s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.038s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.038s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[1.039s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[1.040s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[1.040s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[1.040s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[1.040s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[1.041s] -- Symlinking: /home/robotic/dev_ws/install/my_bot/share/my_bot/package.dsv
+[1.051s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.051s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.052s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.052s] -- Up-to-date symlink: /home/robotic/dev_ws/install/my_bot/share/my_bot/package.xml
+[1.054s] Invoked command in '/home/robotic/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robotic/dev_ws/build/my_bot
