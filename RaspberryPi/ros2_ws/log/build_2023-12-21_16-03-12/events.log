@@ -1,0 +1,524 @@
+[0.000000] (-) TimerEvent: {}
+[0.009526] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.009755] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.009855] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.009936] (ydlidar_sdk) JobQueued: {'identifier': 'ydlidar_sdk', 'dependencies': OrderedDict()}
+[0.010015] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/ubuntu/ros2_ws/install/serial')])}
+[0.010111] (serial) JobStarted: {'identifier': 'serial'}
+[0.102686] (-) TimerEvent: {}
+[0.205023] (-) TimerEvent: {}
+[0.306021] (-) TimerEvent: {}
+[0.407609] (-) TimerEvent: {}
+[0.511578] (-) TimerEvent: {}
+[0.615779] (-) TimerEvent: {}
+[0.720222] (-) TimerEvent: {}
+[0.824309] (-) TimerEvent: {}
+[0.906096] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.926037] (-) TimerEvent: {}
+[1.027004] (-) TimerEvent: {}
+[1.128212] (-) TimerEvent: {}
+[1.230100] (-) TimerEvent: {}
+[1.331775] (-) TimerEvent: {}
+[1.433421] (-) TimerEvent: {}
+[1.534607] (-) TimerEvent: {}
+[1.636067] (-) TimerEvent: {}
+[1.738568] (-) TimerEvent: {}
+[1.801623] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[1.841527] (-) TimerEvent: {}
+[1.943061] (-) TimerEvent: {}
+[2.044751] (-) TimerEvent: {}
+[2.146539] (-) TimerEvent: {}
+[2.248496] (-) TimerEvent: {}
+[2.349772] (-) TimerEvent: {}
+[2.450845] (-) TimerEvent: {}
+[2.552154] (-) TimerEvent: {}
+[2.653126] (-) TimerEvent: {}
+[2.671330] (ydlidar_sdk) JobStarted: {'identifier': 'ydlidar_sdk'}
+[2.753409] (-) TimerEvent: {}
+[2.855932] (-) TimerEvent: {}
+[2.959697] (-) TimerEvent: {}
+[3.062752] (-) TimerEvent: {}
+[3.164346] (-) TimerEvent: {}
+[3.274090] (-) TimerEvent: {}
+[3.440809] (-) TimerEvent: {}
+[3.542323] (-) TimerEvent: {}
+[3.647096] (-) TimerEvent: {}
+[3.749314] (-) TimerEvent: {}
+[3.811570] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[3.818838] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[3.823724] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/serial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:39277'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1815,unix/ubuntu:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '46ae225060554cc791650dde211b6984'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02d23f6f_6dae_4f3b_a29d_944aec84b0cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.850195] (-) TimerEvent: {}
+[3.890689] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[3.895170] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[3.907062] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:39277'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1815,unix/ubuntu:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '46ae225060554cc791650dde211b6984'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02d23f6f_6dae_4f3b_a29d_944aec84b0cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.950259] (-) TimerEvent: {}
+[3.957535] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[3.960285] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[3.962406] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:39277'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1815,unix/ubuntu:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '46ae225060554cc791650dde211b6984'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02d23f6f_6dae_4f3b_a29d_944aec84b0cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/ydlidar_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.050486] (-) TimerEvent: {}
+[4.065912] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'cmake'}
+[4.069947] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'build'}
+[4.071598] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/ydlidar_sdk', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/ydlidar_sdk', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:39277'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1815,unix/ubuntu:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '46ae225060554cc791650dde211b6984'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02d23f6f_6dae_4f3b_a29d_944aec84b0cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/ydlidar_sdk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[4.150779] (-) TimerEvent: {}
+[4.252345] (-) TimerEvent: {}
+[4.353826] (-) TimerEvent: {}
+[4.456401] (-) TimerEvent: {}
+[4.558321] (-) TimerEvent: {}
+[4.659765] (-) TimerEvent: {}
+[4.708514] (my_bot) CommandEnded: {'returncode': 0}
+[4.760140] (-) TimerEvent: {}
+[4.861273] (-) TimerEvent: {}
+[4.919958] (serial) StdoutLine: {'line': b'[ 14%] Built target gtest\n'}
+[4.961564] (-) TimerEvent: {}
+[5.054530] (ydlidar_sdk) StdoutLine: {'line': b'[ 42%] Built target ydlidar_sdk\n'}
+[5.061771] (-) TimerEvent: {}
+[5.070595] (serial) StdoutLine: {'line': b'[ 57%] Built target serial\n'}
+[5.129747] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[5.162011] (-) TimerEvent: {}
+[5.265607] (-) TimerEvent: {}
+[5.366957] (-) TimerEvent: {}
+[5.448736] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[5.467902] (-) TimerEvent: {}
+[5.521881] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_node\n'}
+[5.544905] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[5.546461] (serial) StdoutLine: {'line': b'[ 71%] Built target serial_example\n'}
+[5.567720] (-) TimerEvent: {}
+[5.669539] (-) TimerEvent: {}
+[5.671182] (ydlidar_sdk) StdoutLine: {'line': b'[ 52%] Built target gs_ota\n'}
+[5.672221] (ydlidar_sdk) StdoutLine: {'line': b'[ 57%] Built target tri_test\n'}
+[5.696447] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/my_bot'], 'cwd': '/home/ubuntu/ros2_ws/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:39277'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1815,unix/ubuntu:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '46ae225060554cc791650dde211b6984'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02d23f6f_6dae_4f3b_a29d_944aec84b0cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.717715] (ydlidar_sdk) StdoutLine: {'line': b'[ 57%] Built target sdm_test\n'}
+[5.769766] (-) TimerEvent: {}
+[5.776909] (ydlidar_sdk) StdoutLine: {'line': b'[ 61%] Built target et_test\n'}
+[5.806222] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[5.870043] (-) TimerEvent: {}
+[5.930637] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.932851] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.944842] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[5.949918] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/config/joystick.yaml\n'}
+[5.951363] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[5.955525] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/config/view_bot_base_link.rviz\n'}
+[5.958990] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/config/view_bot_odom.rviz\n'}
+[5.963497] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[5.970263] (-) TimerEvent: {}
+[5.973910] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[5.976724] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[5.982605] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[5.987314] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[5.996205] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[5.998942] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[6.007342] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/launch/joystick.launch.py\n'}
+[6.016691] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py\n'}
+[6.019497] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[6.022518] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[6.026440] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[6.030372] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[6.034261] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[6.038597] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[6.042625] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[6.046703] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[6.050862] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[6.054734] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[6.059814] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[6.063799] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[6.072035] (-) TimerEvent: {}
+[6.089911] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[6.096004] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[6.098630] (serial) StdoutLine: {'line': b'Built target serial-test\n'}
+[6.104733] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[6.127560] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[6.130016] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[6.132989] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/package.xml\n'}
+[6.161626] (my_bot) CommandEnded: {'returncode': 0}
+[6.172471] (-) TimerEvent: {}
+[6.285983] (-) TimerEvent: {}
+[6.332401] (ydlidar_sdk) StdoutLine: {'line': b'[ 66%] Built target tof_test\n'}
+[6.390507] (-) TimerEvent: {}
+[6.501684] (-) TimerEvent: {}
+[6.526594] (serial) StdoutLine: {'line': b'Built target serial-test-timer\n'}
+[6.606043] (-) TimerEvent: {}
+[6.698134] (ydlidar_sdk) StdoutLine: {'line': b'[ 76%] Built target tri_and_gs_test\n'}
+[6.707819] (-) TimerEvent: {}
+[6.814087] (-) TimerEvent: {}
+[6.916737] (-) TimerEvent: {}
+[7.023430] (-) TimerEvent: {}
+[7.049210] (ydlidar_sdk) StdoutLine: {'line': b'[ 80%] Built target tmini_test\n'}
+[7.141890] (-) TimerEvent: {}
+[7.254540] (-) TimerEvent: {}
+[7.360860] (-) TimerEvent: {}
+[7.470549] (-) TimerEvent: {}
+[7.494948] (ydlidar_sdk) StdoutLine: {'line': b'[ 85%] Built target lidar_c_api_test\n'}
+[7.582007] (-) TimerEvent: {}
+[7.684712] (-) TimerEvent: {}
+[7.786721] (-) TimerEvent: {}
+[7.894434] (-) TimerEvent: {}
+[8.001580] (-) TimerEvent: {}
+[8.051148] (ydlidar_sdk) StdoutLine: {'line': b'[ 52%] Built target scl_test\n'}
+[8.082962] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[8.093155] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/ubuntu/ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:39277'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1815,unix/ubuntu:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '46ae225060554cc791650dde211b6984'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02d23f6f_6dae_4f3b_a29d_944aec84b0cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/ydlidar_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.110990] (-) TimerEvent: {}
+[8.132821] (serial) CommandEnded: {'returncode': 0}
+[8.215365] (-) TimerEvent: {}
+[8.235673] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.240139] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.244848] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[8.248685] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[8.253911] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[8.256563] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[8.259455] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[8.267397] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[8.274063] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[8.287328] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[8.290710] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[8.293478] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml\n'}
+[8.299354] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[8.315567] (-) TimerEvent: {}
+[8.317602] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[8.320842] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[8.324955] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar1.yaml\n'}
+[8.335130] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[8.348354] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[8.352273] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[8.355766] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[8.373279] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[8.378711] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[8.382123] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[8.385503] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[8.389050] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[8.407526] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[8.411503] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[8.414759] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[8.415681] (-) TimerEvent: {}
+[8.422130] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[8.425249] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[8.429090] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[8.431694] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[8.434606] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[8.469698] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[8.516068] (-) TimerEvent: {}
+[8.548674] (ydlidar_sdk) StdoutLine: {'line': b'[ 66%] Built target tea_test\n'}
+[8.622614] (-) TimerEvent: {}
+[8.736907] (-) TimerEvent: {}
+[8.837840] (-) TimerEvent: {}
+[8.938918] (-) TimerEvent: {}
+[8.994963] (ydlidar_sdk) StdoutLine: {'line': b'[ 76%] Built target gs_test\n'}
+[9.039237] (-) TimerEvent: {}
+[9.141518] (-) TimerEvent: {}
+[9.242757] (-) TimerEvent: {}
+[9.343612] (-) TimerEvent: {}
+[9.396916] (ydlidar_sdk) StdoutLine: {'line': b'[ 80%] Built target tri_restart\n'}
+[9.448821] (-) TimerEvent: {}
+[9.557845] (-) TimerEvent: {}
+[9.660123] (-) TimerEvent: {}
+[9.725577] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[9.760593] (-) TimerEvent: {}
+[9.873816] (-) TimerEvent: {}
+[9.975311] (-) TimerEvent: {}
+[10.078585] (-) TimerEvent: {}
+[10.180461] (-) TimerEvent: {}
+[10.281607] (-) TimerEvent: {}
+[10.383309] (-) TimerEvent: {}
+[10.485551] (-) TimerEvent: {}
+[10.587163] (-) TimerEvent: {}
+[10.689577] (-) TimerEvent: {}
+[10.790726] (-) TimerEvent: {}
+[10.892604] (-) TimerEvent: {}
+[10.995069] (-) TimerEvent: {}
+[11.018137] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[11.020707] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[11.022365] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/serial'], 'cwd': '/home/ubuntu/ros2_ws/build/serial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:39277'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1815,unix/ubuntu:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '46ae225060554cc791650dde211b6984'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02d23f6f_6dae_4f3b_a29d_944aec84b0cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[11.090556] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.091997] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.094256] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/lib/libserial.a\n'}
+[11.096472] (-) TimerEvent: {}
+[11.097336] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/include/serial/serial.h\n'}
+[11.098219] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/include/serial/v8stdint.h\n'}
+[11.100377] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[11.103364] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[11.104430] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[11.106898] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[11.114306] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[11.117092] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[11.118392] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/path.sh\n'}
+[11.123785] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/path.dsv\n'}
+[11.124584] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.bash\n'}
+[11.125614] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.sh\n'}
+[11.127872] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.zsh\n'}
+[11.130535] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.dsv\n'}
+[11.134143] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/serial/share/serial/package.dsv\n'}
+[11.197563] (-) TimerEvent: {}
+[11.261971] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[11.264176] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.266314] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.268799] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[11.269894] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[11.277579] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/package.xml\n'}
+[11.298296] (-) TimerEvent: {}
+[11.399218] (-) TimerEvent: {}
+[11.501248] (-) TimerEvent: {}
+[11.602412] (-) TimerEvent: {}
+[11.704027] (-) TimerEvent: {}
+[11.806346] (-) TimerEvent: {}
+[11.909516] (-) TimerEvent: {}
+[12.011258] (-) TimerEvent: {}
+[12.112685] (-) TimerEvent: {}
+[12.196866] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[12.203815] (serial) CommandEnded: {'returncode': 0}
+[12.212897] (-) TimerEvent: {}
+[12.314263] (-) TimerEvent: {}
+[12.415338] (-) TimerEvent: {}
+[12.516521] (-) TimerEvent: {}
+[12.620024] (-) TimerEvent: {}
+[12.721199] (-) TimerEvent: {}
+[12.822264] (-) TimerEvent: {}
+[12.923474] (-) TimerEvent: {}
+[13.024366] (-) TimerEvent: {}
+[13.075194] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'install'}
+[13.076311] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/ydlidar_sdk'], 'cwd': '/home/ubuntu/ros2_ws/build/ydlidar_sdk', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:39277'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1815,unix/ubuntu:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '46ae225060554cc791650dde211b6984'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02d23f6f_6dae_4f3b_a29d_944aec84b0cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/ydlidar_sdk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[13.125012] (-) TimerEvent: {}
+[13.148478] (ydlidar_sdk) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.156815] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/datatype.h\n'}
+[13.158693] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/locker.h\n'}
+[13.159608] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/thread.h\n'}
+[13.160466] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/timer.h\n'}
+[13.161322] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/typedef.h\n'}
+[13.162043] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/utils.h\n'}
+[13.163847] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/v8stdint.h\n'}
+[13.166251] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h\n'}
+[13.169888] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/common/ChannelDevice.h\n'}
+[13.173086] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h\n'}
+[13.174097] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h\n'}
+[13.176136] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_def.h\n'}
+[13.177075] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_help.h\n'}
+[13.180411] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h\n'}
+[13.182023] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/math/angles.h\n'}
+[13.185613] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/network/ActiveSocket.h\n'}
+[13.189175] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/network/PassiveSocket.h\n'}
+[13.191096] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/network/SimpleSocket.h\n'}
+[13.192871] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/network/StatTimer.h\n'}
+[13.195987] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/serial/common.h\n'}
+[13.197875] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/serial/serial.h\n'}
+[13.201320] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h\n'}
+[13.203241] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h\n'}
+[13.205157] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h\n'}
+[13.208169] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/CYdLidar.h\n'}
+[13.210611] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/ETLidarDriver.h\n'}
+[13.215634] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/GSLidarDriver.h\n'}
+[13.217985] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/SDMLidarDriver.h\n'}
+[13.223568] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/YDlidarDriver.h\n'}
+[13.225806] (-) TimerEvent: {}
+[13.230904] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/ydlidar_sdk.h\n'}
+[13.232656] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/filters/FilterInterface.h\n'}
+[13.233412] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/filters/NoiseFilter.h\n'}
+[13.234231] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/filters/StrongLightFilter.h\n'}
+[13.238742] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/ydlidar_config.h\n'}
+[13.240878] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/lib/libydlidar_sdk.a\n'}
+[13.241626] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc\n'}
+[13.246463] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake\n'}
+[13.249186] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake\n'}
+[13.249956] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake\n'}
+[13.250644] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake\n'}
+[13.251373] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK\n'}
+[13.256982] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake\n'}
+[13.258941] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in\n'}
+[13.264547] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in\n'}
+[13.265102] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in\n'}
+[13.265754] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in\n'}
+[13.266333] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in\n'}
+[13.266929] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake\n'}
+[13.267471] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common\n'}
+[13.268033] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake\n'}
+[13.268798] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake\n'}
+[13.273312] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt\n'}
+[13.274860] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md\n'}
+[13.276053] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc\n'}
+[13.276816] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs\n'}
+[13.279617] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md\n'}
+[13.280329] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md\n'}
+[13.284155] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md\n'}
+[13.285020] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md\n'}
+[13.286564] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md\n'}
+[13.287282] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md\n'}
+[13.287972] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md\n'}
+[13.288696] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf\n'}
+[13.290421] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials\n'}
+[13.292321] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md\n'}
+[13.298063] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md\n'}
+[13.298893] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md\n'}
+[13.300302] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md\n'}
+[13.301226] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md\n'}
+[13.301994] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md\n'}
+[13.302535] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md\n'}
+[13.303930] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md\n'}
+[13.305252] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md\n'}
+[13.306444] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html\n'}
+[13.307065] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md\n'}
+[13.307863] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto\n'}
+[13.309505] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md\n'}
+[13.310158] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md\n'}
+[13.311487] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md\n'}
+[13.312066] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md\n'}
+[13.312739] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md\n'}
+[13.313531] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md\n'}
+[13.314311] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images\n'}
+[13.315188] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png\n'}
+[13.316168] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png\n'}
+[13.317114] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png\n'}
+[13.317842] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png\n'}
+[13.318919] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png\n'}
+[13.319579] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png\n'}
+[13.320147] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png\n'}
+[13.320810] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png\n'}
+[13.322204] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png\n'}
+[13.322994] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png\n'}
+[13.323707] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode\n'}
+[13.324393] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg\n'}
+[13.325020] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png\n'}
+[13.325677] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png\n'}
+[13.326274] (-) TimerEvent: {}
+[13.326914] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png\n'}
+[13.327683] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md\n'}
+[13.328314] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md\n'}
+[13.328920] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf\n'}
+[13.329625] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf\n'}
+[13.330260] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images\n'}
+[13.330929] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png\n'}
+[13.331600] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png\n'}
+[13.332334] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png\n'}
+[13.332968] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png\n'}
+[13.333648] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png\n'}
+[13.334234] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg\n'}
+[13.334802] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png\n'}
+[13.335446] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png\n'}
+[13.336080] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png\n'}
+[13.336612] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png\n'}
+[13.337194] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png\n'}
+[13.338275] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png\n'}
+[13.338978] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png\n'}
+[13.339616] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md\n'}
+[13.340154] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart\n'}
+[13.340739] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md\n'}
+[13.341283] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md\n'}
+[13.341971] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/startup/initenv.sh\n'}
+[13.351578] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/et_test\n'}
+[13.355547] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/gs_ota\n'}
+[13.360723] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/gs_test\n'}
+[13.364660] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/scl_test\n'}
+[13.369685] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/sdm_test\n'}
+[13.375492] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/tea_test\n'}
+[13.383841] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/tmini_test\n'}
+[13.394631] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/tof_test\n'}
+[13.397779] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/tri_and_gs_test\n'}
+[13.402271] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/tri_restart\n'}
+[13.406829] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/tri_test\n'}
+[13.412498] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/lidar_c_api_test\n'}
+[13.425576] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[13.427265] (-) TimerEvent: {}
+[13.532769] (-) TimerEvent: {}
+[13.635720] (-) TimerEvent: {}
+[13.737424] (-) TimerEvent: {}
+[13.844423] (-) TimerEvent: {}
+[13.945516] (-) TimerEvent: {}
+[14.046906] (-) TimerEvent: {}
+[14.148088] (-) TimerEvent: {}
+[14.251669] (-) TimerEvent: {}
+[14.355028] (-) TimerEvent: {}
+[14.460378] (-) TimerEvent: {}
+[14.562105] (-) TimerEvent: {}
+[14.665462] (-) TimerEvent: {}
+[14.692648] (ydlidar_sdk) JobEnded: {'identifier': 'ydlidar_sdk', 'rc': 0}
+[14.765750] (-) TimerEvent: {}
+[14.867072] (-) TimerEvent: {}
+[14.967893] (-) TimerEvent: {}
+[15.068701] (-) TimerEvent: {}
+[15.169991] (-) TimerEvent: {}
+[15.270756] (-) TimerEvent: {}
+[15.372606] (-) TimerEvent: {}
+[15.473599] (-) TimerEvent: {}
+[15.574721] (-) TimerEvent: {}
+[15.676093] (-) TimerEvent: {}
+[15.770526] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[15.774057] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[15.776294] (-) TimerEvent: {}
+[15.877130] (-) TimerEvent: {}
+[16.014697] (-) TimerEvent: {}
+[16.116344] (-) TimerEvent: {}
+[16.217127] (-) TimerEvent: {}
+[16.319733] (-) TimerEvent: {}
+[16.420877] (-) TimerEvent: {}
+[16.521731] (-) TimerEvent: {}
+[16.619527] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[16.622254] (-) TimerEvent: {}
+[16.624933] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[16.626713] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/diffdrive_arduino', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/serial/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:39277'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1815,unix/ubuntu:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '46ae225060554cc791650dde211b6984'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02d23f6f_6dae_4f3b_a29d_944aec84b0cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/serial:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/diffdrive_arduino'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/serial:/opt/ros/foxy')]), 'shell': False}
+[16.722565] (-) TimerEvent: {}
+[16.823796] (-) TimerEvent: {}
+[16.925333] (-) TimerEvent: {}
+[17.016215] (diffdrive_arduino) StdoutLine: {'line': b'[ 42%] Built target fake_robot\n'}
+[17.025525] (-) TimerEvent: {}
+[17.126961] (-) TimerEvent: {}
+[17.219320] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[17.227155] (-) TimerEvent: {}
+[17.273179] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[17.327392] (-) TimerEvent: {}
+[17.428328] (-) TimerEvent: {}
+[17.504110] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[17.504415] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/diffdrive_arduino'], 'cwd': '/home/ubuntu/ros2_ws/build/diffdrive_arduino', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1761'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/serial/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:39277'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1815,unix/ubuntu:/tmp/.ICE-unix/1815'), ('INVOCATION_ID', '46ae225060554cc791650dde211b6984'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02d23f6f_6dae_4f3b_a29d_944aec84b0cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/serial:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2_ws/build/diffdrive_arduino'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/serial:/opt/ros/foxy')]), 'shell': False}
+[17.528595] (-) TimerEvent: {}
+[17.544604] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.546754] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.548707] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml\n'}
+[17.551231] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml\n'}
+[17.553046] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[17.554613] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/lib/libfake_robot.so\n'}
+[17.560336] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml\n'}
+[17.561082] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py\n'}
+[17.562138] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py\n'}
+[17.564054] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[17.574518] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[17.575559] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[17.576598] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[17.577228] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[17.578234] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[17.579697] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[17.581509] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[17.583191] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[17.584879] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[17.586648] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[17.588389] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[17.590186] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[17.592128] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[17.594336] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[17.596109] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.597915] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.599726] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[17.601005] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[17.602820] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[17.621504] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[17.631600] (-) TimerEvent: {}
+[17.733071] (-) TimerEvent: {}
+[17.836283] (-) TimerEvent: {}
+[17.940802] (-) TimerEvent: {}
+[18.044443] (-) TimerEvent: {}
+[18.147482] (-) TimerEvent: {}
+[18.249071] (-) TimerEvent: {}
+[18.353323] (-) TimerEvent: {}
+[18.455278] (-) TimerEvent: {}
+[18.558083] (-) TimerEvent: {}
+[18.660416] (-) TimerEvent: {}
+[18.762369] (-) TimerEvent: {}
+[18.863923] (-) TimerEvent: {}
+[18.965317] (-) TimerEvent: {}
+[19.066186] (-) TimerEvent: {}
+[19.167594] (-) TimerEvent: {}
+[19.270770] (-) TimerEvent: {}
+[19.372481] (-) TimerEvent: {}
+[19.475141] (-) TimerEvent: {}
+[19.577712] (-) TimerEvent: {}
+[19.681475] (-) TimerEvent: {}
+[19.784406] (-) TimerEvent: {}
+[19.886229] (-) TimerEvent: {}
+[19.988776] (-) TimerEvent: {}
+[20.095986] (-) TimerEvent: {}
+[20.106174] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[20.115388] (-) EventReactorShutdown: {}

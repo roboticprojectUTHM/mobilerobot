@@ -1,0 +1,151 @@
+[0.874s] Invoking command in '/home/ubuntu/ros2_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ydlidar_sdk -- -j4 -l4
+[1.427s] [ 42%] Built target ydlidar_sdk
+[1.670s] [ 47%] Built target et_test
+[1.760s] [ 52%] Built target gs_ota
+[1.761s] [ 57%] Built target sdm_test
+[1.879s] [ 61%] Built target tri_test
+[1.996s] [ 66%] Built target tri_restart
+[2.046s] [ 71%] Built target gs_test
+[2.084s] [ 76%] Built target tof_test
+[2.181s] [ 80%] Built target tri_and_gs_test
+[2.320s] [ 85%] Built target lidar_c_api_test
+[2.334s] [ 90%] Built target tmini_test
+[2.345s] [ 95%] Built target scl_test
+[2.408s] [100%] Built target tea_test
+[2.845s] Invoked command in '/home/ubuntu/ros2_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ydlidar_sdk -- -j4 -l4
+[4.392s] Invoking command in '/home/ubuntu/ros2_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ydlidar_sdk
+[6.107s] -- Install configuration: ""
+[6.108s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/datatype.h
+[6.108s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/locker.h
+[6.108s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/thread.h
+[6.109s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/timer.h
+[6.109s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/typedef.h
+[6.109s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/utils.h
+[6.110s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/v8stdint.h
+[6.110s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h
+[6.110s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/common/ChannelDevice.h
+[6.111s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h
+[6.111s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h
+[6.111s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_def.h
+[6.112s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_help.h
+[6.112s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h
+[6.112s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/math/angles.h
+[6.113s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/network/ActiveSocket.h
+[6.113s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/network/PassiveSocket.h
+[6.114s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/network/SimpleSocket.h
+[6.114s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/network/StatTimer.h
+[6.115s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/serial/common.h
+[6.115s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/serial/serial.h
+[6.116s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h
+[6.116s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h
+[6.117s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h
+[6.117s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/CYdLidar.h
+[6.118s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/ETLidarDriver.h
+[6.118s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/GSLidarDriver.h
+[6.119s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/SDMLidarDriver.h
+[6.119s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/YDlidarDriver.h
+[6.119s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/ydlidar_sdk.h
+[6.120s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/filters/FilterInterface.h
+[6.120s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/filters/NoiseFilter.h
+[6.120s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/src/filters/StrongLightFilter.h
+[6.121s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/include/ydlidar_config.h
+[6.121s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/lib/libydlidar_sdk.a
+[6.121s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc
+[6.122s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake
+[6.122s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[6.122s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake
+[6.123s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake
+[6.123s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK
+[6.124s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake
+[6.124s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in
+[6.124s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in
+[6.124s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in
+[6.125s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in
+[6.125s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in
+[6.126s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake
+[6.126s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common
+[6.127s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake
+[6.127s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake
+[6.128s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt
+[6.128s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md
+[6.129s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc
+[6.129s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs
+[6.130s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md
+[6.130s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md
+[6.136s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md
+[6.136s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md
+[6.137s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md
+[6.139s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md
+[6.143s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md
+[6.144s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf
+[6.146s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials
+[6.147s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md
+[6.150s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md
+[6.151s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md
+[6.152s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md
+[6.153s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md
+[6.154s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md
+[6.156s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md
+[6.157s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md
+[6.160s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md
+[6.162s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html
+[6.163s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md
+[6.166s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto
+[6.166s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md
+[6.169s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md
+[6.170s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md
+[6.171s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md
+[6.174s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md
+[6.176s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md
+[6.178s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images
+[6.181s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png
+[6.183s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png
+[6.184s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png
+[6.186s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png
+[6.188s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png
+[6.190s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png
+[6.194s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png
+[6.197s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png
+[6.200s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png
+[6.201s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png
+[6.203s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode
+[6.208s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg
+[6.209s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png
+[6.210s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png
+[6.210s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png
+[6.211s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md
+[6.211s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md
+[6.212s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf
+[6.212s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf
+[6.213s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images
+[6.213s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png
+[6.214s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png
+[6.214s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png
+[6.214s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png
+[6.215s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png
+[6.215s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg
+[6.217s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png
+[6.218s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png
+[6.219s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png
+[6.219s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png
+[6.220s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png
+[6.220s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png
+[6.222s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png
+[6.224s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md
+[6.225s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart
+[6.227s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md
+[6.228s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md
+[6.229s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/startup/initenv.sh
+[6.231s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/et_test
+[6.233s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/gs_ota
+[6.233s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/gs_test
+[6.235s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/scl_test
+[6.237s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/sdm_test
+[6.239s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/tea_test
+[6.242s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/tmini_test
+[6.246s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/tof_test
+[6.246s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/tri_and_gs_test
+[6.248s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/tri_restart
+[6.250s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/tri_test
+[6.252s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ydlidar_sdk/bin/lidar_c_api_test
+[7.658s] Invoked command in '/home/ubuntu/ros2_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ydlidar_sdk

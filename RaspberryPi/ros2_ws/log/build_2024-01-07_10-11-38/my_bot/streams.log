@@ -1,0 +1,38 @@
+[1.858s] Invoking command in '/home/ubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_bot -- -j4 -l4
+[2.215s] Invoked command in '/home/ubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/my_bot -- -j4 -l4
+[2.777s] Invoking command in '/home/ubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/my_bot
+[2.916s] -- Install configuration: ""
+[2.921s] -- Execute custom install script
+[2.926s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml
+[2.930s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/config/joystick.yaml
+[2.933s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[2.936s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/config/view_bot_base_link.rviz
+[2.939s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/config/view_bot_odom.rviz
+[2.943s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/camera.xacro
+[2.947s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[2.950s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[2.956s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[2.960s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[2.964s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[2.968s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[2.972s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/launch/joystick.launch.py
+[2.976s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[2.979s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[2.983s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[2.987s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world
+[2.992s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[2.996s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[3.001s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[3.005s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[3.010s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.sh
+[3.013s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv
+[3.017s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.bash
+[3.022s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.sh
+[3.025s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh
+[3.029s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv
+[3.034s] -- Symlinking: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/package.dsv
+[3.093s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[3.094s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[3.096s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[3.098s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/my_bot/share/my_bot/package.xml
+[3.122s] Invoked command in '/home/ubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/my_bot

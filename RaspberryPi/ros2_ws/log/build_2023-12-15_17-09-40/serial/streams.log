@@ -1,0 +1,34 @@
+[8.949s] Invoking command in '/home/ubuntu/ros2_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/serial -- -j4 -l4
+[9.824s] [ 28%] Built target serial
+[9.987s] [ 42%] Built target gtest
+[10.174s] [ 57%] Built target gtest_main
+[10.411s] [ 71%] Built target serial_example
+[10.594s] [ 85%] Built target serial-test-timer
+[10.851s] [100%] Built target serial-test
+[12.379s] Invoked command in '/home/ubuntu/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/serial -- -j4 -l4
+[15.017s] Invoking command in '/home/ubuntu/ros2_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/serial
+[15.146s] -- Install configuration: ""
+[15.165s] -- Execute custom install script
+[15.168s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/lib/libserial.a
+[15.170s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/include/serial/serial.h
+[15.171s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/include/serial/v8stdint.h
+[15.192s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/library_path.sh
+[15.195s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/library_path.dsv
+[15.202s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[15.204s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[15.206s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[15.214s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[15.217s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/path.sh
+[15.231s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/path.dsv
+[15.247s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.bash
+[15.262s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.sh
+[15.274s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.zsh
+[15.289s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.dsv
+[15.290s] -- Symlinking: /home/ubuntu/ros2_ws/install/serial/share/serial/package.dsv
+[15.482s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial
+[15.483s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.483s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[15.483s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[15.484s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[15.485s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/serial/share/serial/package.xml
+[15.512s] Invoked command in '/home/ubuntu/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/serial
