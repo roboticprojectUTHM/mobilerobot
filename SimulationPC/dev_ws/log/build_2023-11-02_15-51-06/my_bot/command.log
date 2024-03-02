@@ -1,2 +1,0 @@
-Invoking command in '/home/robotic/dev_ws/build/my_bot': /usr/bin/cmake /home/robotic/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotic/dev_ws/install/my_bot
-Invoked command in '/home/robotic/dev_ws/build/my_bot' returned '1': /usr/bin/cmake /home/robotic/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotic/dev_ws/install/my_bot
